@@ -1,0 +1,18 @@
+<div class="row row-no-gutters" >
+     <div class="col-12 col-md-6 col-lg-4" *ngFor="let contact of contacts">
+        <div class="info-box">
+          
+          <span class="info-box-icon bg-blue"><i class="ion ion-stats-bars"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Name : {{ contact?.name }} </span>
+            <span class="info-box-text">Surname : {{ contact?.surname }}</span>
+            <span class="info-box-text"><small>Phone : {{ contact?.phone }}</small></span>            
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col-12 -->
+  </div>
+  <!-- /.row-->

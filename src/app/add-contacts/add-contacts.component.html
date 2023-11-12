@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <form class="form-create">       
+      <h2 class="form-create-heading">Create Contacts</h2>
+      <input type="text" class="form-control" id="name" [(ngModel)]="newContact.name" name="name" placeholder="Name" required="" autofocus="" />
+      <input type="text" class="form-control" id="surname" [(ngModel)]="newContact.surname" name="surname" placeholder="Surname" required=""/>      
+      <input type="text" class="form-control" id="phone" [(ngModel)]="newContact.phone" name="phone" placeholder="Phone" required=""/>
+      <div *ngIf="show">Contact added successfully</div>
+
+      <button class="btn btn-lg btn-primary btn-block" type="button" (click)="addNewContact()">Add Contact</button>   
+      
+    </form>
+    <!-- /.form-create-->
+  </div>
+  <!-- /.wrapper -->

@@ -1,0 +1,10 @@
+<div class="container"> 
+  <ul class="nav nav-tabs">
+    <li role="presentation"    [ngClass]="{'active': router.url === '/'}"><a routerLink="/">Homepage</a></li>
+    <li role="presentation"    [ngClass]="{'active': router.url === '/add-contacts'}"><a routerLink="/add-contacts">Create Contacts</a></li>
+  </ul>
+  <!-- /.nav -->
+  <div [ngStyle]="{'height': '5em'}"></div>
+  <router-outlet></router-outlet>
+</div>
+<!-- /.container -->

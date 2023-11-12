@@ -1,0 +1,42 @@
+.info-box, .info-box-icon, .info-box-more, .info-box-number {
+    display: block;
+}
+.info-box {
+    min-height: 100px;
+    background: white;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.info-box .progress, .info-box .progress .progress-bar {
+    border-radius: 0;
+}
+.info-box .progress .progress-bar {
+    background: #fff;
+}
+.info-box, .info-box-icon, .info-box-more, .info-box-number {
+    display: block;
+}
+.info-box-icon {
+    float: left;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 74px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 100%}
+    .info-box-content {
+        padding: 10px 10px 10px 0;
+        margin-left: 90px;
+        color: #272c33;
+        display: grid;
+    }
+    .info-box-number {
+        font-weight: 300;
+        font-size: 21px;
+        color: #272c33;
+    }
